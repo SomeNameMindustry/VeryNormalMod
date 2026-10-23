@@ -1,0 +1,7 @@
+UnitTypes.vanquish.description =  "A very common typo of Vanish";
+
+  UnitTypes.vanquish.health = 1;
+  UnitTypes.vanquish.armor = -99;
+  UnitTypes.vanquish.weapons.get(0).bullet.damage = 9999999;
+  UnitTypes.vanquish.weapons.get(0).bullet.lifetime = 2;
+  UnitTypes.vanquish.weapons.get(0).bullet.speed = 64;
