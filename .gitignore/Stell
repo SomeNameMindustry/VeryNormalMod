@@ -5,18 +5,20 @@
 *
 Stell is a full defensive unit, it's whole objective is to TANK enemy hits, it deals absolute little damage, but is easily spamable
 
-MIGHT CAUSE LAG IF LEFT UNCONTRONTROLLED
-
-It has less hp, but same armor and speed, also reloads much slower, spawn a new stell every shot, it deals area damage(From spawning)
-i had this idea while i crashed the game by setting the stell reload to be really low and made it spawn another stell.. and left it live for a few seconds.... then it grew too fast to even try to kill it
 
 
 
-//tests:
+
+
+
+
+
+
+//unused:
 
  Still = new BulletType;
 
-//official test
+MIGHT CAUSE LAG IF LEFT UNCONTRONTROLLED and crash
 
 UnitTypes.stell.weapons.get(0).bullet.lifetime = 1;
 UnitTypes.stell.weapons.get(0).bullet.fragBullets = 1;
