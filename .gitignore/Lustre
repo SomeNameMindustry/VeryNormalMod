@@ -3,7 +3,7 @@ Deals Higher damage at slower rates.. needs time to cooldown
 */
 
 
-Blocks.lustre.targetInterval = 200;
+Blocks.lustre.targetInterval = 100;
 Blocks.lustre.rotateSpeed = 90;
 Blocks.lustre.aimChangeSpeed = 90;
 Blocks.lustre.reload = 900;
@@ -16,7 +16,7 @@ Blocks.lustre.shootType.damageInterval = 30;
 Blocks.lustre.shootType.damage = 2355.7;
 Blocks.lustre.shootType.buildingDamageMultiplier = -1;
 Blocks.lustre.shootType.beamEffectSize = 23.5;
-Blocks.lustre.shootWarmupSpeed = 0.0057;
+Blocks.lustre.shootWarmupSpeed = 0.0047;
 Blocks.lustre.range = 449;
 
 
