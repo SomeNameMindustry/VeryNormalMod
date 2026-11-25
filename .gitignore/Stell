@@ -4,7 +4,7 @@ this shit crashes the game
 
 Stell is a full defensive unit, it's whole objective is to TANK enemy hits, it deals absolute little damage, but is easily spamable
 
-//unused:
+
 
  Still = new BulletType;
 
@@ -14,16 +14,17 @@ MIGHT CAUSE LAG IF LEFT UNCONTRONTROLLED and crash
 
 
 
-UnitTypes.stell.weapons.get(0).bullet.lifetime = 1;
+UnitTypes.stell.weapons.get(0).bullet.lifetime = 40;
 UnitTypes.stell.weapons.get(0).bullet.fragBullets = 1;
 UnitTypes.stell.weapons.get(0).bullet.damage = 25;
 UnitTypes.stell.weapons.get(0).bullet.splashDamage = 5;
 UnitTypes.stell.weapons.get(0).bullet.splashDamageRadius = 4;
+UnitTypes.stell.weapons.get(0).bullet.pierceArmor;
 
 UnitTypes.stell.health = 525;
 UnitTypes.stell.armor = 12;
 
-Still.spawnUnit = UnitTypes.stell;
+
 
 
 
