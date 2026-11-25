@@ -1,37 +1,30 @@
-//this shit crashes the game
+/*
 
+this shit crashes the game
 
-
-*
 Stell is a full defensive unit, it's whole objective is to TANK enemy hits, it deals absolute little damage, but is easily spamable
-
-
-
-
-
-
-
-
-
 
 //unused:
 
  Still = new BulletType;
 
 MIGHT CAUSE LAG IF LEFT UNCONTRONTROLLED and crash
+*/
+
+
+
 
 UnitTypes.stell.weapons.get(0).bullet.lifetime = 1;
 UnitTypes.stell.weapons.get(0).bullet.fragBullets = 1;
-UnitTypes.stell.weapons.get(0).bullet.damage = 115;
-UnitTypes.stell.weapons.get(0).bullet.splashDamage = 75;
-UnitTypes.stell.weapons.get(0).bullet.splashDamageRadius = 32;
-UnitTypes.stell.weapons.get(0).bullet.fragBullet = Still;
-UnitTypes.stell.weapons.get(0).reload = 240;
+UnitTypes.stell.weapons.get(0).bullet.damage = 25;
+UnitTypes.stell.weapons.get(0).bullet.splashDamage = 5;
+UnitTypes.stell.weapons.get(0).bullet.splashDamageRadius = 4;
 
-UnitTypes.stell.health = 325;
+UnitTypes.stell.health = 525;
+UnitTypes.stell.armor = 12;
 
 Still.spawnUnit = UnitTypes.stell;
 
-*/
+
 
 
