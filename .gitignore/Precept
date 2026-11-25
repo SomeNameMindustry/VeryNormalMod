@@ -4,5 +4,15 @@ Carrier
 
 */
 
+UnitTypes.precept.health = 7500;
+UnitTypes.precept.armor = 22;
+UnitTypes.precept.speed = 0.34;
 
-yeah
+UnitTypes.precept.weapons.get(0).reload = 600;
+UnitTypes.precept.weapons.get(0).bullet.fragBullet.spawnUnit = UnitTypes.stell;
+UnitTypes.precept.weapons.get(0).bullet.fragBullets = 1;
+UnitTypes.precept.weapons.get(0).bullet.damage = 5;
+UnitTypes.precept.weapons.get(0).bullet.splashDamage = 250;
+UnitTypes.precept.weapons.get(0).bullet.splashDamageRadius = 56;
+UnitTypes.precept.weapons.get(0).bullet.trailLength = 8;
+
