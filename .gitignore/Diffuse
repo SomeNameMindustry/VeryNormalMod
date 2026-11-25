@@ -1,0 +1,37 @@
+/*
+
+Bullets downgrade, but higher grade bullets cost more ammo
+
+*/
+
+Blocks.diffuse.ammoPerShot = 6;
+
+
+Blocks.diffuse.ammoTypes.get(Items.graphite).ammoMultiplier = 4;
+Blocks.diffuse.ammoTypes.get(Items.graphite).damage = 20.75;
+
+Blocks.diffuse.ammoTypes.get(Items.silicon).fragBullet = Blocks.diffuse.ammoTypes.get(Items.graphite);
+Blocks.diffuse.ammoTypes.get(Items.silicon).fragBullets = 2;
+Blocks.diffuse.ammoTypes.get(Items.silicon).fragRandomSpread = 25;
+Blocks.diffuse.ammoTypes.get(Items.silicon).fragVelocityMax = 0.7;
+Blocks.diffuse.ammoTypes.get(Items.silicon).fragVelocityMin = 0.7;
+Blocks.diffuse.ammoTypes.get(Items.silicon).rangeChange = 40;
+Blocks.diffuse.ammoTypes.get(Items.silicon).reloadMultiplier = 0.75;
+Blocks.diffuse.ammoTypes.get(Items.silicon).ammoMultiplier = 2;
+Blocks.diffuse.ammoTypes.get(Items.silicon).speed = 16;
+Blocks.diffuse.ammoTypes.get(Items.silicon).lifetime = 5;
+Blocks.diffuse.ammoTypes.get(Items.silicon).damage = 20;
+
+Blocks.diffuse.ammoTypes.get(Items.oxide).fragBullet = Blocks.diffuse.ammoTypes.get(Items.silicon);
+Blocks.diffuse.ammoTypes.get(Items.oxide).fragBullets = 2;
+Blocks.diffuse.ammoTypes.get(Items.oxide).fragRandomSpread = 45;
+Blocks.diffuse.ammoTypes.get(Items.oxide).fragVelocityMin = 0.5;
+Blocks.diffuse.ammoTypes.get(Items.oxide).fragVelocityMax = 0.5;
+Blocks.diffuse.ammoTypes.get(Items.oxide).rangeChange = 80;
+Blocks.diffuse.ammoTypes.get(Items.oxide).reloadMultiplier = 0.5;
+Blocks.diffuse.ammoTypes.get(Items.oxide).lifetime = 5;
+Blocks.diffuse.ammoTypes.get(Items.oxide).speed = 16;
+Blocks.diffuse.ammoTypes.get(Items.oxide).damage  = 47.5;
+
+
+
